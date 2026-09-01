@@ -1,0 +1,22 @@
+# InstaReporter - Requirements
+# Optimized for Termux
+
+# Core HTTP libraries
+requests[socks]>=2.28.0
+aiohttp[speedups]>=3.8.0
+
+# Async support
+asyncio-contextmanager>=1.0.0
+
+# HTML parsing
+beautifulsoup4>=4.9.0
+
+# UI/Output formatting
+colorama>=0.4.6
+
+# Utilities
+urllib3>=1.26.0
+certifi>=2021.10.8
+
+# IMPORTANT: Do NOT install proxybroker on Termux!
+# It's not compatible with Termux's environment
